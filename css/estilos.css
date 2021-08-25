@@ -1,0 +1,211 @@
+	/* Estilos de jumbotron (encabezados de página) */
+	.jumbotron_index {
+		background-image: url('../imagenes/panoramica_fondo.jpg');
+		color: #fafafa;
+		padding: 25px 25px;
+		font-family: sans-serif;
+		text-align: center;
+	}	
+	.jumbotron_masinfo {
+		background-image: url('../imagenes/panoramica_fondo2.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_cristo {
+		background-image: url('../imagenes/cristo_redentor_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_muralla {
+		background-image: url('../imagenes/muralla_china_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}	
+	.jumbotron_chichen {
+		background-image: url('../imagenes/chichen_itza_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}	
+	.jumbotron_petra{
+		background-image: url('../imagenes/petra_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_tajmahal {
+		background-image: url('../imagenes/Taj_Mahal_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_machu {
+		background-image: url('../imagenes/machu_picchu_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_coliseo {
+		background-image: url('../imagenes/coliseo_romano_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_ubicaciones {
+		background-image: url('../imagenes/ubicaciones_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_copyright {
+		background-image: url('../imagenes/copyright_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_equipo {
+		background-image: url('../imagenes/equipo_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.jumbotron_acercade {
+		background-image: url('../imagenes/acerca_de_fondo.jpg');
+		color: #fafafa;
+		padding: 75px 75px;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.ajustejumbo_texto {
+		font-size: 63px;
+	}
+
+
+
+
+
+	/* estilos de contenedores */
+	.container-fluid {
+		padding: 50px 50px;
+	}
+	.bg-grey {
+		background-color: #DCDCDC;
+	}
+	.bg-green {
+		background-color: #3ab933;
+		color: #fafafa;
+	}
+	.bg-gris {
+		background-color: #f3f0f0;
+	}
+	.container-fluid-copyright1 {
+		padding: 50px 50px;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+	.container-fluid-copyright2 {
+		padding: 50px 50px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+
+
+
+	/* efecto zoom */
+	.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(1.1); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
+	} 
+
+
+
+	/* estilos barra de navegación */
+	body { padding-top: 50px; }
+	.barranav {
+		width: 1349px;
+		padding-left: 80px;
+	}
+	.navbar {
+		background-color: #F0F0F0;
+		margin: 0px 0px 0px;
+	} 
+	.efecto:hover {
+		background-color: #DCDCDC;
+		color: #fff;
+	}
+	.navbar-header:hover {
+		background-color: #DCDCDC;
+		color: #fff;
+	}
+
+
+
+	/* efectos fotos equipo */
+	.imgperfil1 {
+		border-radius:190px;
+    	border:10px solid #bfbfbf;
+	}
+	.imgperfil2 {
+		border-radius:190px;
+    	border:10px solid #74cf62;
+	}
+
+	/* efectos fotos atribucion */
+	.imgcanalesyoutube {
+		border-radius:190px;
+    	border:7px solid #8c8c8c;
+	}
+
+
+
+	/* estilos de botón para regresar arriba */
+	.simplescrollup__button {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    transition: 1s all;
+    z-index: 10000;
+	}
+	.simplescrollup__button--show {
+    transform: translateX(0);
+	}
+	.simplescrollup__button--hide {
+    transform: translateX(100px);
+	}
+
+
+	/* estilos de footer */
+	.footer {
+		background-color: #3ab933;
+		color: #fafafa;
+		padding: 30px 0px;
+	}
+	.cita {
+		padding: 0px 0px;
+		margin: 0px 0px 0px;
+	}
+	
